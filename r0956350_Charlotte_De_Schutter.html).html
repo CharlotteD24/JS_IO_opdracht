@@ -143,9 +143,38 @@
 </body>
 <script>
     let errorArray = new Array();
+    let voornaam = document.getElementById("voornaam");
+    let naam = document.getElementById("naam");
+    let gebruikersnaam= document.getElementById("gebruikersnaam");
+    let adres = document.getElementById("adres");
+    let land = document.getElementById("land");
+    let provincie = document.getElementById("provincie");
 
     function validateForm() {
-      if ()
+      if(voornaam = null)
+      {
+        errorArray.push(<div class="alert alert-danger" role="alert">Het veld voornaam is vereist.</div>) 
+      }
+      if(naam = null)
+      {
+        errorArray.push(<div class="alert alert-danger" role="alert">Het veld naam is vereist.”</div>) 
+      }
+      if(gebruikersnaam = null)
+      {
+        errorArray.push(<div class="alert alert-danger" role="alert">Het veld gebruikersnaam is vereist.”</div>) 
+      }
+      if(adres = null)
+      {
+        errorArray.push(<div class="alert alert-danger" role="alert">Het veld adres is vereist.”</div>) 
+      }
+      if(land = null)
+      {
+        errorArray.push(<div class="alert alert-danger" role="alert">Het veld land is vereist.”</div>) 
+      }
+      if(provincie = null)
+      {
+        errorArray.push(<div class="alert alert-danger" role="alert">Het veld provincie is vereist.”</div>) 
+      }
     }
 </script>
 </html>
