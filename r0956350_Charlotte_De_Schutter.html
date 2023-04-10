@@ -150,7 +150,7 @@
     let land = document.getElementById("land");
     let provincie = document.getElementById("provincie");
 
-    function validateForm() {
+    function  checkEmptyField(){
       if(voornaam = null)
       {
         errorArray.push(<div class="alert alert-danger" role="alert">Het veld voornaam is vereist.</div>) 
@@ -175,6 +175,10 @@
       {
         errorArray.push(<div class="alert alert-danger" role="alert">Het veld provincie is vereist.”</div>) 
       }
+    }
+
+    function validateForm() {
+      
     }
 </script>
 </html>
